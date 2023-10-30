@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="/style.css" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/5a214790e0.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.css"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body
+    style="
+      background: rgba(155, 155, 213, 0.602);
+      background-repeat: no-repeat;
+      background-size: cover;
+    "
+  >
+    <div class="container-lg-fluid">
+        <div class="mainContainer">
+      <div class="col">
+        <nav class="col navBar">
+          <div class="container-fluid navBarText">
+            <a class="navbar-brand text-black" href="#">
+              Users
+            </a>
+          </div>
+        </nav>
+        <div>
+          <nav class="navbar navbar-expand-lg p-3 shadow-0">
+            <div class="container-fluid">
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="d-flex form-outline w-25" role="search">
+                <input
+                  class="form-control ps-5 py-3"
+                  type="text"
+                  placeholder="Search users"
+                  aria-label="Search"
+                />
+                <i class="bi bi-search ps-1"></i>
+              </div>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto" style="gap: 2rem;">
+                  <li class="nav-item navHover"> 
+                    <a
+                      class="nav-link active"
+                      aria-current="page"
+                      style="color: rgb(89, 86, 86);"
+                      href="#"
+                      >Reputation</a
+                    >
+                  </li>
+                  <li class="nav-item navHover">
+                    <a
+                      class="nav-link"
+                      aria-current="page"
+                      style="color: rgb(89, 86, 86);"
+                      href="#"
+                      >New users</a
+                    >
+                  </li>
+                  <li class="nav-item navHover">
+                    <a
+                      class="nav-link"
+                      aria-current="page"
+                      style="color: rgb(89, 86, 86);"
+                      href="#"
+                      >Voter</a
+                    >
+                  </li>
+                  <li class="nav-item navHover">
+                    <a
+                      class="nav-link"
+                      aria-current="page"
+                      style="color: rgb(89, 86, 86);"
+                      href="#"
+                      >Editors</a
+                    >
+                  </li>
+                  <li class="nav-item navHover">
+                    <a
+                      class="nav-link"
+                      aria-current="page"
+                      style="color: rgb(89, 86, 86);"
+                      href="#"
+                      >Moderators</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+
+        <div class="col">
+          <div class="col d-lg-flex d-md-block">
+            <div
+              class="col p-5 rounded-8 d-flex align-items-center containerHover"
+              style="gap: 1rem; height: 35vh;"
+            >
+              <img
+                src="/asset/pexels-abel-kayode-10850706.jpg"
+                class="img-fluid"
+                style="border-radius: 200rem; width: 30%;"
+                alt=""
+              />
+
+              <div>
+                <h1 class="fw-bolder" style="font-size: 20px;">Lelah Nicholas</h1>
+                <p style="font-size: 12px;">Troy, MI</p>
+                <div
+                  class="d-flex fw-light"
+                  style="gap: 10px; font-size: 12px; color: rgb(137, 106, 220);"
+                >
+                  <p
+                    class="border rounded-7 px-2"
+                    style="
+                      gap: 10px;
+                      font-size: 12px;
+                      color: rgba(54, 74, 203, 0.55);
+                    "
+                  >
+                    clothes
+                  </p>
+                  <p
+                    class="border rounded-7 px-2"
+                    style="
+                      gap: 10px;
+                      font-size: 12px;
+                      color: rgba(54, 74, 203, 0.55);
+                    "
+                  >
+                    stem
+                  </p>
+                </div>
+              </div>
+            </div>
+
+              <div
+                class="col p-5 rounded-8 d-flex align-items-center containerHover"
+                style="gap: 1rem; height: 35vh;"
+              >
+                <img
+                  src="/asset/pexels-s-von-hoerst-4250875.jpg"
+                  class="img-fluid"
+                  style="border-radius: 200rem; width: 39%;"
+                  alt=""
+                />
+
+                <div>
+                  <h1 class="fw-bolder" style="font-size: 20px;">Annie Rice</h1>
+                  <p style="font-size: 12px;">Austin, TX</p>
+                  <div
+                    class="d-flex fw-light"
+                    style="
+                      gap: 10px;
+                      font-size: 12px;
+                      color: rgb(137, 106, 220);
+                    "
+                  >
+                    <p
+                      class="border rounded-7 px-2"
+                      style="
+                        gap: 10px;
+                        font-size: 12px;
+                        color: rgba(54, 74, 203, 0.55);
+                      "
+                    >
+                      headset
+                    </p>
+                    <p
+                      class="border rounded-7 px-2"
+                      style="
+                        gap: 10px;
+                        font-size: 12px;
+                        color: rgba(54, 74, 203, 0.55);
+                      "
+                    >
+                      gadget
+                    </p>
+                  </div>
+                  <div
+                    class="d-flex fw-light"
+                    style="
+                      gap: 10px;
+                      font-size: 12px;
+                      color: rgb(137, 106, 220);
+                    "
+                  >
+                    <p
+                      class="border rounded-7 px-2"
+                      style="
+                        gap: 10px;
+                        font-size: 12px;
+                        color: rgba(54, 74, 203, 0.55);
+                      "
+                    >
+                      speed
+                    </p>
+                    <p
+                      class="border rounded-7 px-2"
+                      style="
+                        gap: 10px;
+                        font-size: 12px;
+                        color: rgba(54, 74, 203, 0.55);
+                      "
+                    >
+                      winter
+                    </p>
+                  </div>
+                </div>
+              </div>
+              
+                <div
+                  class="col p-5 rounded-8 d-flex align-items-center containerHover"
+                  style="gap: 1rem; height: 35vh;"
+                >
+                  <img
+                    src="/asset/pexels-sa-foysal-6409119.jpg"
+                    class="img-fluid"
+                    style="border-radius: 200rem; width: 39%;"
+                    alt=""
+                  />
+
+                  <div>
+                    <h1 class="fw-bolder" style="font-size: 20px;">
+                      Jesus Weiss
+                    </h1>
+                    <p style="font-size: 12px;">Fort Worth, TX</p>
+                    <div
+                      class="d-flex fw-light"
+                      style="
+                        gap: 10px;
+                        font-size: 12px;
+                      "
+                    >
+                      <p
+                        class="border rounded-7 px-2"
+                        style="
+                          gap: 10px;
+                          font-size: 12px;
+                          color: rgba(54, 74, 203, 0.55);
+                        "
+                      >
+                        road
+                      </p>
+                      <p
+                        class="border rounded-7 px-2"
+                        style="
+                          gap: 10px;
+                          font-size: 12px;
+                          color: rgba(54, 74, 203, 0.55);
+                        "
+                      >
+                        mountain
+                      </p>
+                      <p
+                        class="border rounded-7 px-2"
+                        style="
+                          gap: 10px;
+                          font-size: 12px;
+                          color: rgba(54, 74, 203, 0.55);
+                        "
+                      >
+                        trip
+                      </p>
+                    </div>
+                    <div
+                      class="d-flex fw-light"
+                      style="
+                        gap: 10px;
+                        font-size: 12px;
+                        color: rgb(137, 106, 220);
+                      "
+                    >
+                      <p
+                        class="border rounded-7 px-2"
+                        style="
+                          gap: 10px;
+                          font-size: 12px;
+                          color: rgba(54, 74, 203, 0.55);
+                        "
+                      >
+                        earth
+                      </p>
+                      <p
+                        class="border rounded-7 px-2"
+                        style="
+                          gap: 10px;
+                          font-size: 12px;
+                          color: rgba(54, 74, 203, 0.55);
+                        "
+                      >
+                        nature
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="col d-lg-flex d-md-block">
+              <div
+                class="col p-5 rounded-8 d-flex align-items-center containerHover"
+                style="gap: 1rem; height: 35vh;"
+              >
+                <img
+                  src="/asset/Headshot Tips.jpeg"
+                  class="img-fluid"
+                  style="border-radius: 200rem; width: 30%;"
+                  alt=""
+                />
+
+                <div>
+                  <h1 class="fw-bolder" style="font-size: 20px;">Robert Brower</h1>
+                  <p style="font-size: 12px;">Cicinnati, OH</p>
+                  <div
+                    class="d-flex fw-light"
+                    style="
+                      gap: 10px;
+                      font-size: 12px;
+                      color: rgb(137, 106, 220);
+                    "
+                  >
+                    <p
+                      class="border rounded-7 px-2"
+                      style="
+                        gap: 10px;
+                        font-size: 12px;
+                        color: rgba(54, 74, 203, 0.55);
+                      "
+                    >
+                      maintenance
+                    </p>
+                    <p
+                      class="border rounded-7 px-2"
+                      style="
+                        gap: 10px;
+                        font-size: 12px;
+                        color: rgba(54, 74, 203, 0.55);
+                      "
+                    >
+                      gears
+                    </p>
+                  </div>
+                  <div
+                    class="d-flex fw-light"
+                    style="
+                      gap: 10px;
+                      font-size: 12px;
+                      color: rgb(137, 106, 220);
+                    "
+                  >
+                    <p
+                      class="border rounded-7 px-2"
+                      style="
+                        gap: 10px;
+                        font-size: 12px;
+                        color: rgba(54, 74, 203, 0.55);
+                      "
+                    >
+                      frames
+                    </p>
+                    <p
+                      class="border rounded-7 px-2"
+                      style="
+                        gap: 10px;
+                        font-size: 12px;
+                        color: rgba(54, 74, 203, 0.55);
+                      "
+                    >
+                      repair
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+                <div
+                  class="col p-5 rounded-8 d-flex align-items-center containerHover"
+                  style="gap: 1rem; height: 35vh;"
+                >
+                  <img
+                    src="/asset/Headshot Tips1.jpeg"
+                    class="img-fluid"
+                    style="border-radius: 200rem; width: 39%;"
+                    alt=""
+                  />
+
+                  <div>
+                    <h1 class="fw-bolder" style="font-size: 20px;">Anthony S. Morin</h1>
+                    <p style="font-size: 12px;">Lyndhurst, NJ</p>
+                    <div
+                      class="d-flex fw-light"
+                      style="
+                        gap: 10px;
+                        font-size: 12px;
+                        color: rgb(137, 106, 220);
+                      "
+                    >
+                      <p
+                        class="border rounded-7 px-2"
+                        style="
+                          gap: 10px;
+                          font-size: 12px;
+                          color: rgba(54, 74, 203, 0.55);
+                        "
+                      >
+                        vintage
+                      </p>
+                      <p
+                        class="border rounded-7 px-2"
+                        style="
+                          gap: 10px;
+                          font-size: 12px;
+                          color: rgba(54, 74, 203, 0.55);
+                        "
+                      >
+                        electric
+                      </p>
+                    </div>
+                  </div>
+                </div>
+           
+
+                  <div
+                    class="col p-5 rounded-8 d-flex align-items-center containerHover"
+                    style="gap: 1rem; height: 35vh;"
+                  >
+                    <img
+                      src="/asset/Headshot Tips2.jpeg"
+                      class="img-fluid"
+                      style="border-radius: 200rem; width: 39%;"
+                      alt=""
+                    />
+
+                    <div>
+                      <h1 class="fw-bolder" style="font-size: 20px;">Amy Campbell</h1>
+                      <p style="font-size: 12px;">Warrior, AL</p>
+                      <div
+                        class="d-flex fw-light"
+                        style="
+                          gap: 10px;
+                          font-size: 12px;
+                          color: rgb(137, 106, 220);
+                        "
+                      >
+                        <p
+                          class="border rounded-7 px-2"
+                          style="
+                            gap: 10px;
+                            font-size: 12px;
+                            color: rgba(54, 74, 203, 0.55);
+                          "
+                        >
+                          music
+                        </p>
+                        <p
+                          class="border rounded-7 px-2"
+                          style="
+                            gap: 10px;
+                            font-size: 12px;
+                            color: rgba(54, 74, 203, 0.55);
+                          "
+                        >
+                          disk
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+  </body>
+
+  <script src="./script.js"></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.js"
+  ></script>
+</html>
