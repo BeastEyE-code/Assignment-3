@@ -6,13 +6,7 @@
   box-sizing: border-box;
   font-family: "Roboto Slab", serif;
 }
-body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  align-content: center;
-  padding: 2rem;
-}
+
 .mainContainer {
   display: flex;
   flex-direction: column;
@@ -52,11 +46,9 @@ body {
 
 @media (max-width = 600px) {
   body {
-    padding: 0rem;
+    padding: 0px;
   }
   .mainContainer {
-    display: flex;
-    flex-direction: column;
-    padding: 0rem;
+    padding: 1rem;
   }
 }
